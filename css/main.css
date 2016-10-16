@@ -1,0 +1,87 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+    padding: 0;
+}
+
+h1 {
+    text-align: right;
+    font-size: 80pt;
+    padding: 1%;
+    padding-bottom: 0.1%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: 8.333%;
+}
+
+h2 {
+    color: gray;
+    margin: 0.1%;
+}
+
+hr {
+    height: 3px;
+    background: #333;
+}
+
+.hero {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.subject {
+    padding: 2%;
+}
+
+.subheading {
+    text-align: right;
+    padding: 0.2%;
+    padding-right: 5%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 32pt;
+}
+
+.subject-title {
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
+}
+
+.icon {
+    padding: 1%;
+    height: 8.333%;
+}
+
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.social-links {
+    text-align: center;
+    min-width: 46px;
+    min-height: 46px;
+    font-size: 24px;
+}
+
+.contact-me {
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+}
