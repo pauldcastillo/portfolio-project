@@ -31,6 +31,10 @@ hr {
     background: #333;
 }
 
+.container {
+    max-width: 960px;
+}
+
 .hero {
     max-width: 100%;
     max-height: 500px;
@@ -59,11 +63,10 @@ hr {
 
 .icon {
     padding: 1%;
-    height: 8.333%;
 }
 
 * {
-    font-family: 'Cabin', sans-serif;
+    font-family: "Cabin", sans-serif;
 }
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);
